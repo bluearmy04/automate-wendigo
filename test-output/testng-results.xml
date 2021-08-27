@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="109996" started-at="2021-08-27T16:19:34 BDT" finished-at="2021-08-27T16:21:24 BDT">
+    <groups>
+      <group name="PackageModule">
+        <method signature="FullRegression.publishingModule()[pri:6, instance:main.FullRegression@3bd94634]" name="publishingModule" class="main.FullRegression"/>
+      </group> <!-- PackageModule -->
+      <group name="PublishingModule">
+        <method signature="FullRegression.packageModule()[pri:7, instance:main.FullRegression@3bd94634]" name="packageModule" class="main.FullRegression"/>
+      </group> <!-- PublishingModule -->
+      <group name="ContentOwnerModule">
+        <method signature="FullRegression.contentOwnerModule()[pri:10, instance:main.FullRegression@3bd94634]" name="contentOwnerModule" class="main.FullRegression"/>
+      </group> <!-- ContentOwnerModule -->
+      <group name="AdCampaignModule">
+        <method signature="FullRegression.adCampaignModule()[pri:11, instance:main.FullRegression@3bd94634]" name="adCampaignModule" class="main.FullRegression"/>
+      </group> <!-- AdCampaignModule -->
+      <group name="GeoProfileModule">
+        <method signature="FullRegression.geoProfileModule()[pri:3, instance:main.FullRegression@3bd94634]" name="geoProfileModule" class="main.FullRegression"/>
+      </group> <!-- GeoProfileModule -->
+      <group name="ContentModule">
+        <method signature="FullRegression.contentModule()[pri:4, instance:main.FullRegression@3bd94634]" name="contentModule" class="main.FullRegression"/>
+      </group> <!-- ContentModule -->
+      <group name="MetaDataModule">
+        <method signature="FullRegression.categoryModule()[pri:16, instance:main.FullRegression@3bd94634]" name="categoryModule" class="main.FullRegression"/>
+        <method signature="FullRegression.genreModule()[pri:15, instance:main.FullRegression@3bd94634]" name="genreModule" class="main.FullRegression"/>
+        <method signature="FullRegression.tagModule()[pri:14, instance:main.FullRegression@3bd94634]" name="tagModule" class="main.FullRegression"/>
+      </group> <!-- MetaDataModule -->
+      <group name="AnalyticsModule">
+        <method signature="FullRegression.analyticsModule()[pri:8, instance:main.FullRegression@3bd94634]" name="analyticsModule" class="main.FullRegression"/>
+      </group> <!-- AnalyticsModule -->
+      <group name="CustomerModule">
+        <method signature="FullRegression.customerModule()[pri:2, instance:main.FullRegression@3bd94634]" name="customerModule" class="main.FullRegression"/>
+      </group> <!-- CustomerModule -->
+      <group name="ContentGroupModule">
+        <method signature="FullRegression.contentGroupModule()[pri:13, instance:main.FullRegression@3bd94634]" name="contentGroupModule" class="main.FullRegression"/>
+      </group> <!-- ContentGroupModule -->
+      <group name="LiveTVModule">
+        <method signature="FullRegression.liveTVModule()[pri:5, instance:main.FullRegression@3bd94634]" name="liveTVModule" class="main.FullRegression"/>
+      </group> <!-- LiveTVModule -->
+      <group name="ReportModule">
+        <method signature="FullRegression.reportModule()[pri:9, instance:main.FullRegression@3bd94634]" name="reportModule" class="main.FullRegression"/>
+      </group> <!-- ReportModule -->
+      <group name="UserModule">
+        <method signature="FullRegression.userModule()[pri:1, instance:main.FullRegression@3bd94634]" name="userModule" class="main.FullRegression"/>
+      </group> <!-- UserModule -->
+      <group name="CastAndCrewModule">
+        <method signature="FullRegression.castAndCrewModule()[pri:12, instance:main.FullRegression@3bd94634]" name="castAndCrewModule" class="main.FullRegression"/>
+      </group> <!-- CastAndCrewModule -->
+    </groups>
+    <test name="Default test" duration-ms="109996" started-at="2021-08-27T16:19:34 BDT" finished-at="2021-08-27T16:21:24 BDT">
+      <class name="main.FullRegression">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:main.FullRegression@3bd94634]" name="beforeTest" is-config="true" duration-ms="23416" started-at="2021-08-27T16:19:11 BDT" finished-at="2021-08-27T16:19:34 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginProcess()[pri:0, instance:main.FullRegression@3bd94634]" name="loginProcess" duration-ms="5433" started-at="2021-08-27T16:19:35 BDT" finished-at="2021-08-27T16:19:40 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginProcess -->
+        <test-method status="PASS" signature="userModule()[pri:1, instance:main.FullRegression@3bd94634]" name="userModule" duration-ms="6865" started-at="2021-08-27T16:19:40 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:19:47 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userModule -->
+        <test-method status="PASS" signature="customerModule()[pri:2, instance:main.FullRegression@3bd94634]" name="customerModule" duration-ms="6797" started-at="2021-08-27T16:19:47 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:19:54 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerModule -->
+        <test-method status="PASS" signature="geoProfileModule()[pri:3, instance:main.FullRegression@3bd94634]" name="geoProfileModule" duration-ms="7584" started-at="2021-08-27T16:19:54 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:20:01 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geoProfileModule -->
+        <test-method status="PASS" signature="contentModule()[pri:4, instance:main.FullRegression@3bd94634]" name="contentModule" duration-ms="7676" started-at="2021-08-27T16:20:01 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:20:09 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentModule -->
+        <test-method status="PASS" signature="liveTVModule()[pri:5, instance:main.FullRegression@3bd94634]" name="liveTVModule" duration-ms="7689" started-at="2021-08-27T16:20:09 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:20:17 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- liveTVModule -->
+        <test-method status="PASS" signature="publishingModule()[pri:6, instance:main.FullRegression@3bd94634]" name="publishingModule" duration-ms="8816" started-at="2021-08-27T16:20:17 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:20:25 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishingModule -->
+        <test-method status="PASS" signature="packageModule()[pri:7, instance:main.FullRegression@3bd94634]" name="packageModule" duration-ms="6255" started-at="2021-08-27T16:20:25 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:20:32 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packageModule -->
+        <test-method status="PASS" signature="analyticsModule()[pri:8, instance:main.FullRegression@3bd94634]" name="analyticsModule" duration-ms="4104" started-at="2021-08-27T16:20:32 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:20:36 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analyticsModule -->
+        <test-method status="PASS" signature="reportModule()[pri:9, instance:main.FullRegression@3bd94634]" name="reportModule" duration-ms="3997" started-at="2021-08-27T16:20:36 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:20:40 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportModule -->
+        <test-method status="PASS" signature="contentOwnerModule()[pri:10, instance:main.FullRegression@3bd94634]" name="contentOwnerModule" duration-ms="6377" started-at="2021-08-27T16:20:40 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:20:46 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentOwnerModule -->
+        <test-method status="PASS" signature="adCampaignModule()[pri:11, instance:main.FullRegression@3bd94634]" name="adCampaignModule" duration-ms="6360" started-at="2021-08-27T16:20:46 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:20:53 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adCampaignModule -->
+        <test-method status="PASS" signature="castAndCrewModule()[pri:12, instance:main.FullRegression@3bd94634]" name="castAndCrewModule" duration-ms="6209" started-at="2021-08-27T16:20:53 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:20:59 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- castAndCrewModule -->
+        <test-method status="PASS" signature="contentGroupModule()[pri:13, instance:main.FullRegression@3bd94634]" name="contentGroupModule" duration-ms="6363" started-at="2021-08-27T16:20:59 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:21:05 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentGroupModule -->
+        <test-method status="PASS" signature="tagModule()[pri:14, instance:main.FullRegression@3bd94634]" name="tagModule" duration-ms="6422" started-at="2021-08-27T16:21:05 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:21:12 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tagModule -->
+        <test-method status="PASS" signature="genreModule()[pri:15, instance:main.FullRegression@3bd94634]" name="genreModule" duration-ms="6381" started-at="2021-08-27T16:21:12 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:21:18 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genreModule -->
+        <test-method status="PASS" signature="categoryModule()[pri:16, instance:main.FullRegression@3bd94634]" name="categoryModule" duration-ms="6535" started-at="2021-08-27T16:21:18 BDT" depends-on-methods="main.FullRegression.loginProcess" finished-at="2021-08-27T16:21:24 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoryModule -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:main.FullRegression@3bd94634]" name="tearDownTest" is-config="true" duration-ms="736" started-at="2021-08-27T16:21:29 BDT" finished-at="2021-08-27T16:21:30 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- main.FullRegression -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
